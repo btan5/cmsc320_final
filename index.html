@@ -17855,7 +17855,7 @@ The f-beta score of the KNN(with grid search) is: 0.670881102896532
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">LSVC_clf</span> <span class="o">=</span> <span class="n">LinearSVC</span><span class="p">()</span>
@@ -17884,8 +17884,8 @@ The f-beta score of the KNN(with grid search) is: 0.670881102896532
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[15 13]
- [ 0 33]]
+<pre>[[22  6]
+ [ 1 32]]
 </pre>
 </div>
 </div>
@@ -17911,7 +17911,7 @@ The f-beta score of the KNN(with grid search) is: 0.670881102896532
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">LSVC_p</span><span class="p">,</span> <span class="n">LSVC_r</span><span class="p">,</span> <span class="n">LSVC_fbeta</span><span class="p">,</span> <span class="n">placeholder</span> <span class="o">=</span> <span class="n">precision_recall_fscore_support</span><span class="p">(</span><span class="n">classes_test</span><span class="p">,</span> <span class="n">LSVC_predict</span><span class="p">,</span> <span class="n">average</span><span class="o">=</span><span class="s1">&#39;weighted&#39;</span><span class="p">)</span>
@@ -17939,9 +17939,9 @@ The f-beta score of the KNN(with grid search) is: 0.670881102896532
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The precision of the LinearSVC is: 0.8471133285816108 
-The recall of the LinearSVC is: 0.7868852459016393 
-The f-beta score of the LinearSVC is: 0.7722049831818817
+<pre>The precision of the LinearSVC is: 0.8946243013092245 
+The recall of the LinearSVC is: 0.8852459016393442 
+The f-beta score of the LinearSVC is: 0.8836613380055325
 </pre>
 </div>
 </div>
